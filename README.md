@@ -2,7 +2,7 @@
 my dotfiles for my dwl setup.
 
 Patches added:
->Xwayland-handle minimize
->Bar
->Smart borders
->Unclutter
+'Xwayland-handle minimize'
+'Bar'
+'Smart borders'
+'Unclutter'

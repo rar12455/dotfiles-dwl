@@ -1,3 +1,4 @@
 dwl/dwl
 rarstatus/rarstatus
 *.o
+*.un~

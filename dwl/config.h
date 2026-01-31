@@ -131,6 +131,7 @@ static const char *termcmd[] = { "foot", NULL };
 static const char *menucmd[] = { "wmenu.sh", NULL };
 static const char *firefox[] = { "firefox", NULL };
 static const char *htop[] = { "foot","htop", NULL };
+static const char *steam[] = { "steam", NULL };
 /* ALSA volume control */
 static const char *volupcmd[]   = { "amixer", "-M", "set", "Master", "5%+", "unmute", NULL };
 static const char *voldowncmd[] = { "amixer", "-M", "set", "Master", "5%-", "unmute", NULL };
@@ -154,6 +155,7 @@ static const Key keys[] = {
 	{ MODKEY,                    XKB_KEY_w,          spawn,          {.v = firefox} },
 	{ MODKEY,                    XKB_KEY_Escape,     spawn,          {.v = htop} },
 	{ MODKEY,					 XKB_KEY_Return,     spawn,          {.v = termcmd} },
+	{ MODKEY,					 XKB_KEY_s,			 spawn,          {.v = steam} },
 	{ MODKEY,                    XKB_KEY_Print,    spawn,          {.v = screenshotarea} },
 	{ 0,                         XKB_KEY_Print,    spawn,          {.v = screenshotfull} }, 
 	{ MODKEY,                    XKB_KEY_b,          togglebar,      {0} },
